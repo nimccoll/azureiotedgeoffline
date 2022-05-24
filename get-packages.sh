@@ -8,7 +8,7 @@ wget https://download.docker.com/linux/ubuntu/dists/bionic/pool/stable/amd64/doc
 
 echo 'Downloading Moby package files...'
 wget https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/m/moby-runc/moby-runc_1.0.3+azure-1_amd64.deb -O moby-runc.deb
-wget https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/m/moby-containerd/moby-containerd_1.5.11+azure-1_amd64.deb -O containerd.io.deb
+wget https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/m/moby-containerd/moby-containerd_1.5.11+azure-1_amd64.deb -O moby-containerd.io.deb
 wget https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/m/moby-cli/moby-cli_20.10.16+azure-3_amd64.deb -O moby-cli.deb
 wget https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/m/moby-engine/moby-engine_20.10.16+azure-2_amd64.deb -O moby-engine.deb
 
